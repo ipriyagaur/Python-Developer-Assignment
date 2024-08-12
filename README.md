@@ -13,20 +13,6 @@ In this task, a Flask API is developed to control the execution of a simulated a
 ### Task 3: JSON Data Processing
 This task involves a script that processes JSON data to extract and retain only the most recent entries based on timestamps. The script is designed to handle data from the NIFTY options chain, filtering for the latest date's data for each relevant entry.
 
-## Setup Instructions
-
-To set up and run the project, follow these steps:
-
-1. *Create a Virtual Environment*:
-   - Run python -m venv venv to create a virtual environment.
-
-2. *Activate the Virtual Environment*:
-   - On Windows: .\venv\Scripts\activate
-   - On macOS and Linux: source venv/bin/activate
-
-3. *Install Dependencies*:
-   - Ensure you have a requirements.txt file with necessary dependencies. Use pip install -r requirements.txt to install them.
-
 ## Usage Instructions
 
 Each task is implemented as a separate script. You can run them individually based on your needs:
