@@ -1,9 +1,9 @@
 import pandas as pd
 
 # Load the data
-banknifty_data = pd.read_csv('BANKNIFTY_historical_data.csv')
-finnifty_data = pd.read_csv('FINNIFTY_historical_data.csv')
-nifty_data = pd.read_csv('NIFTY_historical_data.csv')
+banknifty_data = pd.read_csv('BANKNIFTY_Data.csv')
+finnifty_data = pd.read_csv('FINNIFTY_Data.csv')
+nifty_data = pd.read_csv('NIFTY_Data.csv')
 
 # Display the first few rows of each data set to check
 print(banknifty_data.head())
@@ -16,9 +16,9 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load the data
-banknifty_data = pd.read_csv('BANKNIFTY_historical_data.csv')
-finnifty_data = pd.read_csv('FINNIFTY_historical_data.csv')
-nifty_data = pd.read_csv('NIFTY_historical_data.csv')
+banknifty_data = pd.read_csv('BANKNIFTY_Data.csv')
+finnifty_data = pd.read_csv('FINNIFTY_Data.csv')
+nifty_data = pd.read_csv('NIFTY_Data.csv')
 
 @app.route('/get_data', methods=['GET'])
 def get_data():
